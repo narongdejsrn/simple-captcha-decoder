@@ -1,24 +1,38 @@
 __author__ = 'Narongdej'
 
 from operator import itemgetter
-import os, sys, hashlib, time
+import os, sys, hashlib, time, urllib, cStringIO
 from PIL import Image
 import vectorspace
 
 
 class CaptchaDecoder:
 
+    def __init__(self):
+        self.v = vectorspace.VectorSpace()
+
+        iconset = [x[1] for x in os.walk("iconset")][0]
+        self.imageset = []
+
+        for letter in iconset:
+          for img in os.listdir('./iconset/%s/'%(letter)):
+            temp = []
+            if img != "Thumbs.db":
+              temp.append(self.buildvector(Image.open("./iconset/%s/%s"%(letter,img))))
+            self.imageset.append({letter:temp})
+
+        self.limit = None
+
+
+    def DecodeImageURL(self, imageurl, debug=False):
+        file = cStringIO.StringIO(urllib.urlopen(imageurl).read())
+        return self.DecodeImage(file, debug)
+
     def DecodeImage(self, imagepath, debug=False):
         im = Image.open(imagepath)
-        im = im.convert("P")
-        im2 = Image.new("P",im.size, 255)
-        temp = {}
-        for x in range(im.size[1]):
-          for y in range(im.size[0]):
-            pix = im.getpixel((y,x))
-            temp[pix] = pix
-            if pix == 118 or pix == 82: # these are the numbers to get
-              im2.putpixel((y,x),0)
+
+        if self.limit is None:
+            self.ImageTopColour(im)
 
         inletter = False
         foundletter=False
@@ -27,40 +41,36 @@ class CaptchaDecoder:
 
         letters = []
 
-        for y in xrange(im2.size[0]):
-          for x in xrange(14, im2.size[1]):
-            pix = im2.getpixel((y, x))
+        for y in xrange(im.size[0]): # slice across
+            for x in xrange(im.size[1]): # slice down
+                pix = im.getpixel((y, x))
+                if pix[3] >= self.limit:
+                    inletter = True
 
-            if pix != 255:
-              inletter = True
+            if foundletter == False and inletter == True:
+                foundletter = True
+                start = y
 
-          if foundletter == False and inletter == True:
-            foundletter = True
-            start = y
+            if foundletter == True and inletter == False:
+                foundletter = False
+                end = y
+                letters.append((start,end))
 
-          if foundletter == True and inletter == False:
-            foundletter = False
-            end = y
-            letters.append((start,end))
+            inletter = False
 
-          inletter=False
+        if len(letters) < 4:
+            if(debug):
+                print "Letter cut not correctly, returning false"
+            return
 
-        v = vectorspace.VectorSpace()
-
-        iconset = [x[1] for x in os.walk("iconset")][0]
-        imageset = []
-
-        for letter in iconset:
-          for img in os.listdir('./iconset/%s/'%(letter)):
-            temp = []
-            if img != "Thumbs.db":
-              temp.append(self.buildvector(Image.open("./iconset/%s/%s"%(letter,img))))
-            imageset.append({letter:temp})
+        v = self.v
+        imageset = self.imageset
 
         count = 0
+        answer = ""
         for letter in letters:
           m = hashlib.md5()
-          im3 = im2.crop(( letter[0] , 0, letter[1],im2.size[1] ))
+          im3 = im.crop(( letter[0] , 0, letter[1],im.size[1] ))
 
           guess = []
 
@@ -73,29 +83,88 @@ class CaptchaDecoder:
           if debug:
             print "",guess[0]
           else:
-            sys.stdout.write(guess[0][1])
+            answer += guess[0][1]
           count += 1
+        return answer
 
     def buildvector(self,im):
           d1 = {}
           count = 0
           for i in im.getdata():
-            d1[count] = i
+            d1[count] = sum(i)
             count += 1
           return d1
 
 
-    def ImageTopColour(self, imagepath):
-        im = Image.open(imagepath)
-        im = im.convert("P")
-        his = im.histogram()
-        values = {}
+    def ImageTopColour(self, im):
 
-        for i in range(256):
-          values[i] = his[i]
+        # import operator
+        #
+        # from collections import defaultdict
+        # by_color = defaultdict(int)
+        # for pixel in im.getdata():
+        #     by_color[sum(pixel)] += 1
+        # self.limit = sorted(by_color.items(), key=operator.itemgetter(1), reverse=True)[10][0]
+        # #print sorted(by_color.items(), key=operator.itemgetter(1), reverse=True)
+        self.limit = 170
 
-        for j,k in sorted(values.items(), key=itemgetter(1), reverse=True)[:10]:
-          print j,k
+    def TrainLearningSet(self, imagedirectory):
+        trainingset = [x[2] for x in os.walk(imagedirectory)][0]
+        filename = [os.path.splitext(filename)[0] for filename in trainingset]
+
+        tsCount = 0
+        for ts in trainingset:
+            im = Image.open(imagedirectory + ts)
+
+            if self.limit is None:
+                self.ImageTopColour(im)
+
+            inletter = False
+            foundletter = False
+            start = 0
+            end = 0
+
+
+            letters = []
+            for y in xrange(im.size[0]): # slice across
+                for x in xrange(im.size[1]): # slice down
+                    pix = im.getpixel((y, x))
+                    #print sum(pix)
+                    if pix[3] >= self.limit:
+                        inletter = True
+
+                if foundletter == False and inletter == True:
+                    foundletter = True
+                    start = y
+
+                if foundletter == True and inletter == False:
+                    foundletter = False
+                    end = y
+                    letters.append((start,end))
+
+                inletter = False
+
+            #if len(letters) < 4:
+                #break
+
+            count = 0
+            for letter in letters:
+                m = hashlib.md5()
+                im3 = im.crop(( letter[0] , 0, letter[1],im.size[1] ))
+                m.update("%s%s"%(time.time(),count))
+
+                try:
+                    if not os.path.exists("iconset/"+filename[tsCount][count] + "/"):
+                        os.makedirs("iconset/"+filename[tsCount][count] + "/")
+
+                    im3.save("iconset/%s/%s.png"%(str(filename[tsCount][count]), m.hexdigest()))
+                    count += 1
+                except Exception:
+                    pass
+
+            tsCount += 1
+
+
 
     # def SaveLetter(self, letter):
     #     count = 0

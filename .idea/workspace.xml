@@ -2,16 +2,38 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c0b2206a-7c4f-4f41-a0f5-ded47dcdb90c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/Simple-Captcha-Decoder.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captchadecoder/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captchadecoder/__main__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captchadecoder/captchadecoder.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captchadecoder/vectorspace.py" />
+      <change type="DELETED" beforePath="D:\Project\SimpleCaptchaDecoder\Simple-Captcha-Decoder\captchadecoder\iconset\0\082bd9d6985bbadc82d089ba933383cc.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\Project\SimpleCaptchaDecoder\Simple-Captcha-Decoder\captchadecoder\iconset\0\0d7e524197bddd350c83d659318800d5.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\Project\SimpleCaptchaDecoder\Simple-Captcha-Decoder\captchadecoder\iconset\0\0f9d42ff5ccd677d4b322e362ae7276b.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\Project\SimpleCaptchaDecoder\Simple-Captcha-Decoder\captchadecoder\iconset\0\229e91671b31da500045e162400a5fc4.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\Project\SimpleCaptchaDecoder\Simple-Captcha-Decoder\captchadecoder\iconset\0\93a4e677631f8ae0bf41a4235a57dc0e.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\Project\SimpleCaptchaDecoder\Simple-Captcha-Decoder\captchadecoder\iconset\0\bdb21e9d8c5056c69d8bc3801bafea1a.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\Project\SimpleCaptchaDecoder\Simple-Captcha-Decoder\captchadecoder\iconset\1\5be71c904ae88b951f0f1999b119ba34.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\Project\SimpleCaptchaDecoder\Simple-Captcha-Decoder\captchadecoder\iconset\1\5ce15cb4328afaef2a6340cf41b85fdf.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\Project\SimpleCaptchaDecoder\Simple-Captcha-Decoder\captchadecoder\iconset\1\6ada5d03ebb6e23181ea7aef1c36f439.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\Project\SimpleCaptchaDecoder\Simple-Captcha-Decoder\captchadecoder\iconset\1\847c4304959bba2bb9b5a00411c88deb.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\Project\SimpleCaptchaDecoder\Simple-Captcha-Decoder\captchadecoder\iconset\2\26fe7e9931ea96189566c763805ab2ac.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\Project\SimpleCaptchaDecoder\Simple-Captcha-Decoder\captchadecoder\iconset\32\054110a6a860495571fa9b7695b84d90.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\Project\SimpleCaptchaDecoder\Simple-Captcha-Decoder\captchadecoder\iconset\32\9be72be8f38d91b22760201feea34619.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\Project\SimpleCaptchaDecoder\Simple-Captcha-Decoder\captchadecoder\iconset\32\f850adf5384b2423c070a2ba8bc4d366.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\Project\SimpleCaptchaDecoder\Simple-Captcha-Decoder\captchadecoder\iconset\3\66b27c6beece59e39ee089f1ea8d2837.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\Project\SimpleCaptchaDecoder\Simple-Captcha-Decoder\captchadecoder\iconset\3\980ec46af5c3e1b97adf6cc8f5597678.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\Project\SimpleCaptchaDecoder\Simple-Captcha-Decoder\captchadecoder\iconset\4\3e21678aeee21fd3da8aaf19b33286c6.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\Project\SimpleCaptchaDecoder\Simple-Captcha-Decoder\captchadecoder\iconset\5\87dd2209e27220d16bc575f929baa9da.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\Project\SimpleCaptchaDecoder\Simple-Captcha-Decoder\captchadecoder\iconset\63\e84f620d40587e7bebfc61f05ede0559.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\Project\SimpleCaptchaDecoder\Simple-Captcha-Decoder\captchadecoder\iconset\6\159afd04973ed05aed1833d9687614a6.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\Project\SimpleCaptchaDecoder\Simple-Captcha-Decoder\captchadecoder\iconset\7\3807a60266cbbeb7a25328060ea01174.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\Project\SimpleCaptchaDecoder\Simple-Captcha-Decoder\captchadecoder\iconset\7\5dee0a8a6364c38b3f581b7e904f09bb.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\Project\SimpleCaptchaDecoder\Simple-Captcha-Decoder\captchadecoder\iconset\7\d9db427655a80bd42771531c4b0a0b6d.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\Project\SimpleCaptchaDecoder\Simple-Captcha-Decoder\captchadecoder\iconset\85\e91af5740b43614a5ba2fda8a27b597a.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\Project\SimpleCaptchaDecoder\Simple-Captcha-Decoder\captchadecoder\iconset\8\4f06782c567497bdda152d62916bc866.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\Project\SimpleCaptchaDecoder\Simple-Captcha-Decoder\captchadecoder\iconset\8\e86772ec789c3f751dd4d7299127abcf.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\Project\SimpleCaptchaDecoder\Simple-Captcha-Decoder\captchadecoder\iconset\97\2edcd2b28e6db12a800015e31da5fcae.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\Project\SimpleCaptchaDecoder\Simple-Captcha-Decoder\captchadecoder\iconset\98\599e9b3a6160e1c022e46d526dfcafe1.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\Project\SimpleCaptchaDecoder\Simple-Captcha-Decoder\captchadecoder\iconset\9\155d651faf560778ff9d4018450fb87b.gif" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/captchadecoder/__main__.py" afterPath="$PROJECT_DIR$/captchadecoder/__main__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/captchadecoder/captchadecoder.py" afterPath="$PROJECT_DIR$/captchadecoder/captchadecoder.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Simple-Captcha-Decoder.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -23,7 +45,8 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/Simple-Captcha-Decoder$__main__.coverage" NAME="__main__ Coverage Results" MODIFIED="1422644627046" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/captchadecoder" />
+    <SUITE FILE_PATH="coverage/Simple-Captcha-Decoder$testcaptcha.coverage" NAME="testcaptcha Coverage Results" MODIFIED="1422687669528" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/captchadecoder" />
+    <SUITE FILE_PATH="coverage/Simple-Captcha-Decoder$__main__.coverage" NAME="__main__ Coverage Results" MODIFIED="1422687453597" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/captchadecoder" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -50,8 +73,18 @@
       <file leaf-file-name="__main__.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/captchadecoder/__main__.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.18240343" vertical-offset="0" max-vertical-offset="466">
-              <caret line="5" column="39" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
+            <state vertical-scroll-proportion="0.116883114" vertical-offset="48" max-vertical-offset="578">
+              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="testcaptcha.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/captchadecoder/testcaptcha.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="612">
+              <caret line="25" column="28" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -60,8 +93,8 @@
       <file leaf-file-name="captchadecoder.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/captchadecoder/captchadecoder.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-31.28" vertical-offset="0" max-vertical-offset="1904">
-              <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+            <state vertical-scroll-proportion="-5.8" vertical-offset="1249" max-vertical-offset="3077">
+              <caret line="82" column="19" selection-start-line="82" selection-start-column="19" selection-end-line="82" selection-end-column="19" />
               <folding>
                 <element signature="e#26#57#0" expanded="true" />
               </folding>
@@ -95,6 +128,7 @@
         <option value="$PROJECT_DIR$/vectorspace.py" />
         <option value="$PROJECT_DIR$/__main__.py" />
         <option value="$PROJECT_DIR$/captchadecoder.py" />
+        <option value="$PROJECT_DIR$/captchadecoder/testcaptcha.py" />
         <option value="$PROJECT_DIR$/captchadecoder/captchadecoder.py" />
         <option value="$PROJECT_DIR$/captchadecoder/__main__.py" />
       </list>
@@ -132,7 +166,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -193,6 +226,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -201,11 +235,14 @@
     <property name="recentsLimit" value="5" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Project\SimpleCaptchaDecoder\Simple-Captcha-Decoder\captchadecoder" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Project\SimpleCaptchaDecoder\Simple-Captcha-Decoder\captchadecoder" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.__main__">
+  <component name="RunManager" selected="Python.testcaptcha">
     <configuration default="false" name="__main__" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -220,6 +257,25 @@
       <module name="Simple-Captcha-Decoder" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/captchadecoder/__main__.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="testcaptcha" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/captchadecoder" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Simple-Captcha-Decoder" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/captchadecoder/testcaptcha.py" />
       <option name="PARAMETERS" value="" />
       <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
@@ -375,16 +431,21 @@
       <option name="USE_PATTERN" value="false" />
       <method />
     </configuration>
-    <list size="1">
+    <list size="2">
       <item index="0" class="java.lang.String" itemvalue="Python.__main__" />
+      <item index="1" class="java.lang.String" itemvalue="Python.testcaptcha" />
     </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Python.__main__" />
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="Python.testcaptcha" />
+        <item index="1" class="java.lang.String" itemvalue="Python.__main__" />
       </list>
     </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="c0b2206a-7c4f-4f41-a0f5-ded47dcdb90c" name="Default" comment="" />
@@ -397,24 +458,24 @@
     <frame x="-8" y="-8" width="1552" height="842" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3287858" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33424285" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -434,13 +495,83 @@
     </option>
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/captchadecoder/vectorspace.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="425">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/captchadecoder/__main__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="31" max-vertical-offset="561">
+          <caret line="5" column="36" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/captchadecoder/testcaptcha.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="65" max-vertical-offset="663">
+          <caret line="25" column="28" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/captchadecoder/captchadecoder.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1122" max-vertical-offset="2941">
+          <caret line="66" column="27" selection-start-line="66" selection-start-column="27" selection-end-line="66" selection-end-column="27" />
+          <folding>
+            <element signature="e#26#57#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/captchadecoder/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="119">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/captchadecoder/vectorspace.py">
+      <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="425">
           <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/captchadecoder/__main__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="204">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/captchadecoder/captchadecoder.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="1904">
+          <caret line="30" column="30" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
+          <folding>
+            <element signature="e#26#57#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/captchadecoder/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="119">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -453,10 +584,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/captchadecoder/vectorspace.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="425">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Program/x64/Anaconda/Lib/site-packages/PIL/Image.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33333334" vertical-offset="33438" max-vertical-offset="36210">
+          <caret line="1979" column="0" selection-start-line="1979" selection-start-column="0" selection-end-line="1979" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/captchadecoder/testcaptcha.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="65" max-vertical-offset="663">
+          <caret line="25" column="28" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/captchadecoder/captchadecoder.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-31.28" vertical-offset="0" max-vertical-offset="1904">
-          <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+        <state vertical-scroll-proportion="-5.8" vertical-offset="1249" max-vertical-offset="3077">
+          <caret line="82" column="19" selection-start-line="82" selection-start-column="19" selection-end-line="82" selection-end-column="19" />
           <folding>
             <element signature="e#26#57#0" expanded="true" />
           </folding>
@@ -465,8 +620,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/captchadecoder/__main__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.18240343" vertical-offset="0" max-vertical-offset="466">
-          <caret line="5" column="39" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
+        <state vertical-scroll-proportion="0.116883114" vertical-offset="48" max-vertical-offset="578">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding />
         </state>
       </provider>
